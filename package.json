@@ -2,7 +2,7 @@
   "name": "kartlink-kiosk",
   "version": "1.0.0",
   "description": "Electron App for the kartlink kiosk",
-  "main": "main.js",
+  "main": "screendump.js",
   "scripts": {
     "start": "electron ."
   },
@@ -17,8 +17,13 @@
   "author": "Sundar Iyer",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^19.0.6"
   },
   "dependencies": {
+    "electron": "^19.0.6"
+  },
+  "bin": {
+    "screendump": "screendump.js"
   }
+
+
 }
